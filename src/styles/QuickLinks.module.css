@@ -1,0 +1,82 @@
+.quickLinksContainer {
+  position: absolute;
+  width: 346px;
+  height: 567px;
+  top: 158px;
+  left: 610px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.quickLinkCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s, border 0.2s;
+  cursor: pointer;
+  border: 2px solid transparent; 
+}
+
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.quickLinkCard h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #2b2121;
+}
+
+.quickLinkCard p {
+  font-size: 0.9rem;
+  color: #110f0f;
+}
+.quickLinkCard:hover {
+  transform: scale(1.02);
+  border: 2px solid #6868f3;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  
+
+}
+
+.canvasLMS {
+  background-color: #4a5db5;
+  color: white;
+}
+
+
+.joinLive {
+  background-color: #e56bcf;
+  color: white;
+}
+
+
+.contactTeacher {
+  background-color: #6d7ff7;
+  color: white;
+}
+

@@ -1,0 +1,96 @@
+
+
+.classScheduleContainer {
+  background-color: #f8f9ff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+
+}
+
+
+.classScheduleContainer h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.classItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.classItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #de79c2;
+}
+
+.today {
+  background-color: #ffe4f2; 
+}
+
+.logo {
+  margin-right: 10px; 
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info p:first-of-type {
+  color: #4a4a4a;
+  font-size: 0.9em;
+}
+
+.info p strong {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.status {
+  font-size: 0.8em;
+  color: #888;
+  font-weight: bold;
+}
+.preview {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  z-index: 1000;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.previewImage {
+  max-width: 80%;
+  max-height: 80%;
+  margin-top: 20px;
+}
+
